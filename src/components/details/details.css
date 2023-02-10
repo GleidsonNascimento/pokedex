@@ -1,0 +1,177 @@
+.container-poke-img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: .8rem;
+  }
+  .container-{
+    padding-bottom: 32vh;
+  }
+  .abilitys {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .ability {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 237, 237);
+    height: 2.7rem;
+    width: 9%;
+    border-radius: 30px;
+    margin-left: 1rem;
+  }
+  .ability p {
+    text-transform: capitalize;
+  }
+  .poke-sprites {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 10rem;
+  }
+  .poke-sprites img {
+    width: 5rem;
+  }
+  .progress-bar {
+    width: 95%;
+    height: 0.8rem;
+    border: 1px solid #000;
+    background-color: rgb(248, 248, 243);
+    overflow: hidden;
+  }
+  .progress-bar .progress {
+    height: 100%;
+    background-color: rgb(16, 170, 241);
+  }
+  .poke-infos{
+    width: 27.7rem;
+    margin: auto;
+  }
+  .data{
+    display: flex;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25;
+  }
+  .data p{
+    margin-left: 0.5rem;
+    text-transform: capitalize;
+  }
+  .status{
+    width: 27.3rem;
+    margin: auto;
+    padding-left: 0.3rem;
+    
+  }
+  .moves {
+    display: flex;
+    width: 27.7rem;
+    flex-flow: row wrap;
+    margin: auto;
+    gap: 0.3rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .move {
+    display: flex;
+    width: 6.5rem;
+    height: 2.8rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 255, 192);
+  }
+  .move p {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+  }
+  .stat p {
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .button {
+    width: 9.6rem;
+    height: 2.2rem;
+    font-size: 18px;
+    background-color: rgba(231, 231, 231, 0);
+    border: 2px;
+    margin-bottom: 0.5rem;
+  }
+  .button.active {
+    border-bottom: 2px solid blue;
+    transition: all 0.1s ease;
+  }
+  .buttons{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .principal {
+    width: 12rem;
+    
+  }
+  .item-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  .item-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms ease-in-out;
+  }
+  
+  .item-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .item-exit-active {
+    opacity: 0;
+    transform: translate;
+  }
+  .ability{
+    display: flex;
+  }
+  .abilitys{
+    margin-top: 0.25rem;
+  }
+  .abilitys span{
+    font-size:22px;
+    font-weight:bolder;
+  }
+  
+  .abilitys h2{
+    margin-top: -.4rem;
+    margin-right: 0.3rem;
+  }
+  .abilitys p{
+    margin-top: 0rem;
+  }
+  .abilitie{
+    font-size:20px;
+    text-transform: capitalize;
+    margin-left: 0.5rem;
+  }
+  .poke-infos span{
+    font-size:22px;
+    font-weight:bolder;
+  }
+  .poke-infos p{
+    font-size: 18px;
+  }
+  .background{
+    background-color: rgb(252, 255, 254);
+  }
+  
+  

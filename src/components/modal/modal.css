@@ -1,0 +1,159 @@
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    position: fixed;
+    overflow: hidden;
+    min-height: 600px;
+  }
+  
+  .modal {
+    width: 81%;
+    max-width: 600px;
+    height: 65%;
+    background: linear-gradient(334deg, #dfdbb0, #f1f1c9, #f4ff5f);
+      background-size: 180% 180%;
+      animation: gradient-animation 6s ease infinite;
+    border-radius: 25px;
+  }
+  .gradient{
+    padding-top: 0.2rem;
+  }
+  .pokemon-data {
+    background-color: rgb(172, 198, 202);
+    height: 15.5rem;
+    width: 11rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.233);
+  }
+  
+  .pok-name {
+    text-transform: capitalize;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 1.2rem;
+  }
+  .pokemon-data img {
+    width: 8.5rem;
+    margin-top: 0.4rem;
+    height: 9.5rem;
+    background-color: transparent;
+  }
+  
+  .type-pokemon {
+    margin: auto;
+    display: flex;
+    width: 44%;
+    height: 1.5rem;
+    color: rgb(250, 248, 248);
+    float: left;
+    border-radius: 0.4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-left: 6px;
+  }
+  
+  .button-closer {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  input {
+    width: 100%;
+    height: 90%;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: 16px;
+    
+  }
+  
+  input:focus,
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  input::placeholder {
+    
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+  }
+  
+  .button-search img {
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: transparent;
+    
+  }
+  .button-search {
+    height: 100%;
+    width: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 13px 13px 0px;
+    text-align: center;
+    border: none;
+    background-color: rgb(248, 250, 224);
+    cursor: pointer;
+  }
+  .bar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 2.3rem;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.233);
+    background-color: white;
+  }
+  
+  @keyframes gradient-animation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  .error-message{
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  
