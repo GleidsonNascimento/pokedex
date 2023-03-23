@@ -18,7 +18,7 @@ E por ultimo, caso tenha problema em encontrar algum pokemon, você pode clicar 
 ## O que foi utilizado
 - Javascript
 - React
-- Css
+- CSS
 - biblioteca InfiniteScroll
 - biblioteca animate
 - React Hooks: useState, useEffect
